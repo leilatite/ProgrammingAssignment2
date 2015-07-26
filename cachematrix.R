@@ -4,7 +4,7 @@
 ## Function makeCacheMatrix creates a special matrix 'mtx' object
 ## and defines functions that can cache its inverse.
 
-## input 'mtx' is a matrix
+## input 'mtx' is a matrix. We get to assume that the input is always invertible.
 
 ## returns a list of functions that can perform operations on the cached inverse of the matrix
 
